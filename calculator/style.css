@@ -1,0 +1,98 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color: black;
+}
+#dom{
+    width:1000px;
+    height:550px;
+    background-image:url(1.jfif);
+    margin: 20px auto;
+    border-radius: 20px;
+    top: 50px;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color:azure;
+    margin: 50px auto;
+    top: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha),0 6px 20px 0 rgba(red, green, blue, alpha); 
+}
+#result{
+    height: 120px;
+
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0px 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:#919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#key{
+    height: 400px;
+
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number,.empty{
+    background-color:azure;
+    cursor: pointer;
+}
+.number:active,.empty:active{
+    font-size: 13px;
+}
+.number:focus,.empty:focus{
+    outline: 0px;
+}
+button:nth-child(4)
+{
+    font-size:13px;
+    background-color:orchid;
+}
+button:nth-child(8)
+{
+    font-size:13px;
+    background-color: royalblue;
+}
+button:nth-child(12)
+{
+    font-size:13px;
+    background-color:yellow;
+}
+button:nth-child(16)
+{
+    font-size:13px;
+    background-color:greenyellow;
+}
+button:nth-child(20)
+{
+    font-size:13px;
+    background-color: paleturquoise;
+}
+footer{
+    line-height: 50px;
+    background-color: darkgoldenrod;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    background-color: blueviolet;
+}
